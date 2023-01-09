@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testRunner.TestRunner" time="27.363" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/test-classes:/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/classes:/Users/sheetal/.m2/repository/io/cucumber/cucumber-java/7.8.1/cucumber-java-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-core/7.8.1/cucumber-core-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-gherkin/7.8.1/cucumber-gherkin-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.1/cucumber-gherkin-messages-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/sheetal/.m2/repository/io/cucumber/datatable/7.8.1/datatable-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-plugin/7.8.1/cucumber-plugin-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/docstring/7.8.1/docstring-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/sheetal/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/sheetal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sheetal/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/sheetal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/sheetal/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/sheetal/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/sheetal/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/sheetal/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/sheetal/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/sheetal/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/sheetal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/sheetal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/sheetal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/sheetal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.5.3/selenium-java-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.5.3/selenium-api-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.5.3/selenium-chrome-driver-4.5.3.jar:/Users/sheetal/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/sheetal/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/sheetal/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.5.3/selenium-chromium-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.5.3/selenium-json-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.5.3/selenium-devtools-v104-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.5.3/selenium-devtools-v105-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.5.3/selenium-devtools-v106-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.5.3/selenium-devtools-v85-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.5.3/selenium-edge-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.5.3/selenium-firefox-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.5.3/selenium-ie-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.5.3/selenium-remote-driver-4.5.3.jar:/Users/sheetal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sheetal/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/sheetal/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sheetal/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/sheetal/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/sheetal/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/sheetal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sheetal/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/sheetal/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.5.3/selenium-http-4.5.3.jar:/Users/sheetal/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.5.3/selenium-safari-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.5.3/selenium-support-4.5.3.jar:/Users/sheetal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/sheetal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sheetal/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/sheetal/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-junit/7.8.1/cucumber-junit-7.8.1.jar:/Users/sheetal/.m2/repository/net/masterthought/maven-cucumber-reporting/5.7.1/maven-cucumber-reporting-5.7.1.jar:/Users/sheetal/.m2/repository/org/apache/maven/maven-plugin-api/3.8.6/maven-plugin-api-3.8.6.jar:/Users/sheetal/.m2/repository/org/apache/maven/maven-model/3.8.6/maven-model-3.8.6.jar:/Users/sheetal/.m2/repository/org/apache/maven/maven-artifact/3.8.6/maven-artifact-3.8.6.jar:/Users/sheetal/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.5/org.eclipse.sisu.plexus-0.3.5.jar:/Users/sheetal/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/sheetal/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar:/Users/sheetal/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/sheetal/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/sheetal/.m2/repository/net/masterthought/cucumber-reporting/5.7.4/cucumber-reporting-5.7.4.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/sheetal/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sheetal/.m2/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar:/Users/sheetal/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/sheetal/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar:/Users/sheetal/.m2/repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar:/Users/sheetal/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/sheetal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sheetal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sheetal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sheetal/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/sheetal/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/sheetal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/sheetal/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/sheetal/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/sheetal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/sheetal/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/sheetal/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/sheetal/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Users/sheetal/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933/jre/lib"/>
+    <property name="sun.java.command" value="/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/surefire/surefirebooter-20230106181556230_3.jar /Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/surefire 2023-01-06T18-15-56_138-jvmRun1 surefire-20230106181556230_1tmp surefire_0-20230106181556230_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/test-classes:/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/classes:/Users/sheetal/.m2/repository/io/cucumber/cucumber-java/7.8.1/cucumber-java-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-core/7.8.1/cucumber-core-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-gherkin/7.8.1/cucumber-gherkin-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.1/cucumber-gherkin-messages-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/sheetal/.m2/repository/io/cucumber/datatable/7.8.1/datatable-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-plugin/7.8.1/cucumber-plugin-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/docstring/7.8.1/docstring-7.8.1.jar:/Users/sheetal/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/sheetal/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/sheetal/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/sheetal/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/sheetal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/sheetal/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/sheetal/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/sheetal/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/sheetal/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/sheetal/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/sheetal/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/sheetal/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/sheetal/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/sheetal/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/sheetal/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/sheetal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-java/4.5.3/selenium-java-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-api/4.5.3/selenium-api-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.5.3/selenium-chrome-driver-4.5.3.jar:/Users/sheetal/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/sheetal/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/sheetal/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.5.3/selenium-chromium-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-json/4.5.3/selenium-json-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.5.3/selenium-devtools-v104-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.5.3/selenium-devtools-v105-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.5.3/selenium-devtools-v106-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.5.3/selenium-devtools-v85-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.5.3/selenium-edge-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.5.3/selenium-firefox-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.5.3/selenium-ie-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.5.3/selenium-remote-driver-4.5.3.jar:/Users/sheetal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/sheetal/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/sheetal/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/sheetal/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/sheetal/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sheetal/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/sheetal/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/sheetal/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/sheetal/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/sheetal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/sheetal/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/sheetal/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-http/4.5.3/selenium-http-4.5.3.jar:/Users/sheetal/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.5.3/selenium-safari-driver-4.5.3.jar:/Users/sheetal/.m2/repository/org/seleniumhq/selenium/selenium-support/4.5.3/selenium-support-4.5.3.jar:/Users/sheetal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/sheetal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/sheetal/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/sheetal/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/sheetal/.m2/repository/io/cucumber/cucumber-junit/7.8.1/cucumber-junit-7.8.1.jar:/Users/sheetal/.m2/repository/net/masterthought/maven-cucumber-reporting/5.7.1/maven-cucumber-reporting-5.7.1.jar:/Users/sheetal/.m2/repository/org/apache/maven/maven-plugin-api/3.8.6/maven-plugin-api-3.8.6.jar:/Users/sheetal/.m2/repository/org/apache/maven/maven-model/3.8.6/maven-model-3.8.6.jar:/Users/sheetal/.m2/repository/org/apache/maven/maven-artifact/3.8.6/maven-artifact-3.8.6.jar:/Users/sheetal/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.5/org.eclipse.sisu.plexus-0.3.5.jar:/Users/sheetal/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/Users/sheetal/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar:/Users/sheetal/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/Users/sheetal/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar:/Users/sheetal/.m2/repository/net/masterthought/cucumber-reporting/5.7.4/cucumber-reporting-5.7.4.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/sheetal/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/sheetal/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/sheetal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/sheetal/.m2/repository/joda-time/joda-time/2.10.14/joda-time-2.10.14.jar:/Users/sheetal/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/sheetal/.m2/repository/org/codehaus/plexus/plexus-utils/3.4.2/plexus-utils-3.4.2.jar:/Users/sheetal/.m2/repository/org/jsoup/jsoup/1.15.3/jsoup-1.15.3.jar:/Users/sheetal/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/sheetal/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/sheetal/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/sheetal/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/sheetal/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/sheetal/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/sheetal/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/sheetal/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20211018.2/owasp-java-html-sanitizer-20211018.2.jar:/Users/sheetal/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/sheetal/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/sheetal/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/sheetal/.m2/repository/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/Users/sheetal/.m2/repository/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sheetal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/Users/sheetal/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.aarch64_17.0.5.v20221102-0933/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/target/surefire/surefirebooter-20230106181556230_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="sheetal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="/Users/sheetal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/5v/jnxs71890ld_6fcl7vlc2sjh0000gn/T/"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="/Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sheetal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Successful Login with Valid Credentials" classname="Login" time="3.956">
+    <system-out><![CDATA[
+@sanity
+Scenario: Successful Login with Valid Credentials                 # src/test/resources/Features/Login.feature:4
+18:15:58.467 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                # stepDefinitions.Steps.user_launch_chrome_browser()
+18:15:58.477 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"    # stepDefinitions.Steps.user_opens_url(java.lang.String)
+18:15:59.447 [main] INFO  stepDefinitions.BaseClass - Entered username and password
+  Then User enters User Name as "KusMeh" and Password as "KusMeh" # stepDefinitions.Steps.user_enters_user_name_as_and_password_as(java.lang.String,java.lang.String)
+18:15:59.555 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                     # stepDefinitions.Steps.clicks_on_submit_button()
+18:16:00.125 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Login: Mercury Tours"                # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:00.129 [main] INFO  stepDefinitions.BaseClass - Clicking SignOff
+  When User clicks on SIGN-OFF link                               # stepDefinitions.Steps.user_clicks_on_sign_off_link()
+18:16:00.556 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Welcome: Mercury Tours"              # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:00.558 [main] INFO  stepDefinitions.BaseClass - Browser Closed
+  And Close browser                                               # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 26888
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:15:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #1" classname="Login" time="3.084">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                               # src/test/resources/Features/Login.feature:27
+18:16:01.718 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                # stepDefinitions.Steps.user_launch_chrome_browser()
+18:16:01.719 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"    # stepDefinitions.Steps.user_opens_url(java.lang.String)
+18:16:02.666 [main] INFO  stepDefinitions.BaseClass - Entered username and password
+  Then User enters User Name as "KusMeh" and Password as "KusMeh" # stepDefinitions.Steps.user_enters_user_name_as_and_password_as(java.lang.String,java.lang.String)
+18:16:02.770 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                     # stepDefinitions.Steps.clicks_on_submit_button()
+18:16:03.287 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Login: Mercury Tours"                # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:03.290 [main] INFO  stepDefinitions.BaseClass - Clicking SignOff
+  When User clicks on SIGN-OFF link                               # stepDefinitions.Steps.user_clicks_on_sign_off_link()
+18:16:03.673 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Welcome: Mercury Tours"              # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:03.676 [main] INFO  stepDefinitions.BaseClass - Browser Closed
+  And Close browser                                               # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 13152
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:16:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #2" classname="Login" time="3.267">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                               # src/test/resources/Features/Login.feature:28
+18:16:04.811 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                # stepDefinitions.Steps.user_launch_chrome_browser()
+18:16:04.811 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"    # stepDefinitions.Steps.user_opens_url(java.lang.String)
+18:16:05.869 [main] INFO  stepDefinitions.BaseClass - Entered username and password
+  Then User enters User Name as "RicVer" and Password as "RicVer" # stepDefinitions.Steps.user_enters_user_name_as_and_password_as(java.lang.String,java.lang.String)
+18:16:05.961 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                     # stepDefinitions.Steps.clicks_on_submit_button()
+18:16:06.542 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Login: Mercury Tours"                # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:06.544 [main] INFO  stepDefinitions.BaseClass - Clicking SignOff
+  When User clicks on SIGN-OFF link                               # stepDefinitions.Steps.user_clicks_on_sign_off_link()
+18:16:06.941 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Welcome: Mercury Tours"              # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:06.943 [main] INFO  stepDefinitions.BaseClass - Browser Closed
+  And Close browser                                               # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 7927
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:16:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #3" classname="Login" time="3.326">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                               # src/test/resources/Features/Login.feature:29
+18:16:08.069 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                # stepDefinitions.Steps.user_launch_chrome_browser()
+18:16:08.070 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"    # stepDefinitions.Steps.user_opens_url(java.lang.String)
+18:16:09.174 [main] INFO  stepDefinitions.BaseClass - Entered username and password
+  Then User enters User Name as "DeeSha" and Password as "DeeSha" # stepDefinitions.Steps.user_enters_user_name_as_and_password_as(java.lang.String,java.lang.String)
+18:16:09.267 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                     # stepDefinitions.Steps.clicks_on_submit_button()
+18:16:09.830 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Login: Mercury Tours"                # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:09.832 [main] INFO  stepDefinitions.BaseClass - Clicking SignOff
+  When User clicks on SIGN-OFF link                               # stepDefinitions.Steps.user_clicks_on_sign_off_link()
+18:16:10.266 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Welcome: Mercury Tours"              # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+18:16:10.268 [main] INFO  stepDefinitions.BaseClass - Browser Closed
+  And Close browser                                               # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 48596
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:16:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="Login Data Driven #4" classname="Login" time="2.719">
+    <failure message="Login failed with invalid credentials" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login failed with invalid credentials
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepDefinitions.Steps.page_title_should_be(Steps.java:96)
+	at ✽.Page title should be "Login: Mercury Tours"(file:///Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/src/test/resources/Features/Login.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                               # src/test/resources/Features/Login.feature:30
+18:16:11.378 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                # stepDefinitions.Steps.user_launch_chrome_browser()
+18:16:11.379 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"    # stepDefinitions.Steps.user_opens_url(java.lang.String)
+18:16:12.374 [main] INFO  stepDefinitions.BaseClass - Entered username and password
+  Then User enters User Name as "MohShe" and Password as "MohShe" # stepDefinitions.Steps.user_enters_user_name_as_and_password_as(java.lang.String,java.lang.String)
+18:16:12.469 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                     # stepDefinitions.Steps.clicks_on_submit_button()
+18:16:12.954 [main] INFO  stepDefinitions.BaseClass - Login failed with invalid credentials
+  Then Page title should be "Login: Mercury Tours"                # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+      java.lang.AssertionError: Login failed with invalid credentials
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at stepDefinitions.Steps.page_title_should_be(Steps.java:96)
+	at ✽.Page title should be "Login: Mercury Tours"(file:///Volumes/files/applications/eclipse-workspace-1/newtours.cucumberRevision.sdet/src/test/resources/Features/Login.feature:20)
+
+  When User clicks on SIGN-OFF link                               # stepDefinitions.Steps.user_clicks_on_sign_off_link()
+  Then Page title should be "Welcome: Mercury Tours"              # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+  And Close browser                                               # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 49068
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:16:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="Fight Reservation" classname="Login" time="6.858">
+    <system-out><![CDATA[
+@regression
+Scenario: Fight Reservation                                               # src/test/resources/Features/Login.feature:33
+18:16:14.097 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                        # stepDefinitions.Steps.user_launch_chrome_browser()
+18:16:14.098 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"            # stepDefinitions.Steps.user_opens_url(java.lang.String)
+18:16:15.064 [main] INFO  stepDefinitions.BaseClass - Entered username and password
+  Then User enters User Name as "KusMeh" and Password as "KusMeh"         # stepDefinitions.Steps.user_enters_user_name_as_and_password_as(java.lang.String,java.lang.String)
+18:16:15.150 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                             # stepDefinitions.Steps.clicks_on_submit_button()
+18:16:15.642 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Login: Mercury Tours"                        # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+  When User clicks on Flights link                                        # stepDefinitions.Steps.user_clicks_on_flights_link()
+  And Enters Flight details and Preferences                               # stepDefinitions.Steps.enters_flight_details_and_preferences()
+  And Clicks Continue button                                              # stepDefinitions.Steps.clicks_continue_button()
+  Then User can view message "After flight finder - No Seats Avaialble  " # stepDefinitions.Steps.user_can_view_message(java.lang.String)
+18:16:19.801 [main] INFO  stepDefinitions.BaseClass - Browser Closed
+  And Close browser                                                       # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 36770
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:16:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+  <testcase name="Successful Login with Valid Credentials" classname="Register" time="3.864">
+    <system-out><![CDATA[
+@sanity @regression
+Scenario: Successful Login with Valid Credentials                      # src/test/resources/Features/Register.feature:4
+18:16:20.946 [main] INFO  stepDefinitions.BaseClass - Browser is launched
+  Given User launch chrome browser                                     # stepDefinitions.Steps.user_launch_chrome_browser()
+18:16:20.947 [main] INFO  stepDefinitions.BaseClass - Baseurl is opened
+  When User opens url "https://demo.guru99.com/test/newtours/"         # stepDefinitions.Steps.user_opens_url(java.lang.String)
+  And Clicks on REGISTER link                                          # stepDefinitions.Steps.clicks_on_register_link()
+18:16:22.322 [main] INFO  stepDefinitions.BaseClass - Login Passed with valid credentials
+  Then Page title should be "Register: Mercury Tours"                  # stepDefinitions.Steps.page_title_should_be(java.lang.String)
+  Then Enters New User details                                         # stepDefinitions.Steps.enters_new_user_details()
+18:16:23.215 [main] INFO  stepDefinitions.BaseClass - Clicked Submit
+  And Clicks on submit button                                          # stepDefinitions.Steps.clicks_on_submit_button()
+  Then User can view configuration message "Thank you for registering" # stepDefinitions.Steps.user_can_view_configuration_message(java.lang.String)
+18:16:23.709 [main] INFO  stepDefinitions.BaseClass - Browser Closed
+  And Close browser                                                    # stepDefinitions.Steps.close_browser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 26353
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2023 6:16:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+]]></system-err>
+  </testcase>
+</testsuite>
