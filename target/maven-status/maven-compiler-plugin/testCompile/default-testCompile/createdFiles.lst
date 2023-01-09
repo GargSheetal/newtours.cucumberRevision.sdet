@@ -1,7 +1,0 @@
-pageObjects/FlightReservationPage.class
-stepDefinitions/Steps.class
-pageObjects/LoginPage.class
-pageObjects/RegisterPage.class
-stepDefinitions/BaseClass.class
-testRunner/TestRunner.class
-utilities/WaitHelper.class
